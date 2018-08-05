@@ -1,4 +1,4 @@
-## How to build android library and publish it for Jitpack
+## How to be an android developer Expert
 In this Post  I am going to talk about the steps you should follow to be an  android developer expert  in the market. At the beginning, I would like to say something about that. The corner stone of success in any field is to love what you do so if you do not have passion to learn android development you will waste your time.It is  a long journey of learning and practice.To be expert , there are many steps you should follow. Here are the steps:
 
 
