@@ -1,4 +1,4 @@
-## How to be an android developer Expert
+### How to be an android developer Expert
 In this Post  I am going to talk about the steps you should follow to be an  android developer expert  in the market. At the beginning, I would like to say something about that. The corner stone of success in any field is to love what you do so if you do not have passion to learn android development you will waste your time.It is  a long journey of learning and practice.To be expert , there are many steps you should follow. Here are the steps:
 
 
@@ -73,3 +73,32 @@ Self Learning is a vital Skill for your career as software engineer. There is no
 Github and Stackoverflow are famous websites for code repository hosting and for asking and answering questions .As a software engineer, you should have account on GitHub.You can  share and contribute in open source projects.This makes you a better developer and also famous  in your community.
 
 At the end, I would like to say that all the previous points are of  my point of view to be an android developer expert  in the market.I hope this article will help you to start your journey of android   development.
+
+
+###How to Speed Up Your Android Gradle Build
+In this post I am going to talk about Gradle build time issue when you develop your android app.If you work on  a large app with huge number of resources ,many classes and a lot of third part libraries. You will face this issue.
+
+So, in this post I will share some tips to resolve this issue and save your precious time .To be able to focus on developing of your app.In the beginning let us know the impact of this issue on our productivity as android developers. Suppose you work in large project for example chat app. And you build your project 50 times per day .Let us assume  the Gradle build time takes around 2 minutes so the total time is 100  minutes(1 hour and 40 min) .This is a huge waste time so I think that you should give this post some times .
+
+To understand and apply to your next projects.Before talking about the tips you should understand the building process of Gradle and here are the building process steps:
+
+Initialization:In this stage of the Gradle build life cycle, Gradle picks the project and decides what things to build.
+Configuration: Gradle will evaluate your build.gradle script, configure all the plugins and evaluate the task graph.
+Execution: In this phase Gradle actually runs all the task those were evaluated in previous phase to get the work done and build the application.
+Now Put the following in gradle.properties file in your project to reduce the build time
+
+
+
+Awesome!!! is not it? let us talk more about each attribute in the gradle.properties file and how it helps us to reduce the build time .Are you ready ? here are the attributes:
+
+Gradle Daemon: Gradle has a nice feature called Daemon. Daemon keeps instance of gradle up and running  in background for the next builds and this will remove the amount of time required for gradle initialization every build.
+Heap Size:The more you give heap size for Daemon ,The more you will reduce the build time.
+Parallel Mode: This options will help you if you organize your app in modules not all in one module(app module)
+ConfigureOnDemand: This tells gradle to build the required modules only
+Finally I hope this video will give you more tips to reduce your Gradle build time and enhance your productivity. Please comment and share your experience in this issue with me
+
+
+
+
+
+
